@@ -104,8 +104,8 @@
                 android:id="@+id/button_seoinage"
                 android:layout_marginTop="1dp"
                 android:layout_centerHorizontal="true"
-                android:background="#52a34c"
-                android:textColor="#ffffff"/>
+                android:background="#a2d29e"
+                android:textColor="#1d492b"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -115,8 +115,8 @@
                 android:layout_marginTop="5dp"
                 android:layout_below="@+id/button_seoinage"
                 android:layout_centerHorizontal="true"
-                android:background="#52a34c"
-                android:textColor="#ffffff"/>
+                android:background="#a2d29e"
+                android:textColor="#1d492b"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -126,8 +126,8 @@
                 android:layout_marginTop="5dp"
                 android:layout_below="@+id/button_taiotoshi"
                 android:layout_centerHorizontal="true"
-                android:background="#52a34c"
-                android:textColor="#ffffff"/>
+                android:background="#a2d29e"
+                android:textColor="#1d492b"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -137,8 +137,8 @@
                 android:layout_marginTop="5dp"
                 android:layout_below="@+id/button_kataguruma"
                 android:layout_centerHorizontal="true"
-                android:background="#52a34c"
-                android:textColor="#ffffff"/>
+                android:background="#a2d29e"
+                android:textColor="#1d492b"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -147,8 +147,8 @@
                 android:layout_marginTop="5dp"
                 android:layout_below="@+id/button_sukuinage"
                 android:layout_centerHorizontal="true"
-                android:background="#52a34c"
-                android:textColor="#ffffff"/>
+                android:background="#a2d29e"
+                android:textColor="#1d492b"/>
 
             <Button
                 android:layout_width="match_parent"
@@ -158,8 +158,8 @@
                 android:layout_marginTop="5dp"
                 android:layout_below="@+id/button_ukiotoshi"
                 android:layout_centerHorizontal="true"
-                android:background="#52a34c"
-                android:textColor="#ffffff"/>
+                android:background="#a2d29e"
+                android:textColor="#1d492b"/>
 
 
 
