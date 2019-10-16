@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="projetobudo.studio.com.projetobudo.Historia"
+    android:background="#ffffff">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/logo_budo2"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"/>
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="500dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/menu_fundo"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/botaoHomeId"
+        android:background="@drawable/menu_home"
+        android:layout_below="@+id/imageView"
+        android:layout_toStartOf="@+id/botaoHistoriaId"
+        android:layout_marginEnd="22dp" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/botaoHistoriaId"
+        android:background="@drawable/menu_historia"
+        android:layout_below="@+id/imageView"
+        android:layout_toStartOf="@+id/botaoDicionarioId"
+        android:layout_marginEnd="18dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/botaoDicionarioId"
+        android:background="@drawable/menu_dicionario"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/botaoExameId"
+        android:background="@drawable/menu_exame"
+        android:layout_below="@+id/imageView"
+        android:layout_toEndOf="@+id/botaoDicionarioId"
+        android:layout_marginStart="16dp" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/botaoTecnicasId"
+        android:background="@drawable/menu_tecnicas"
+        android:layout_below="@+id/imageView"
+        android:layout_toEndOf="@+id/botaoExameId"
+        android:layout_marginStart="18dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:fillViewport="true"
+        android:padding="15dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/jigorokano"
+                android:id="@+id/imageView5"
+                android:padding="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jigoro Kano nasceu em Kikage, próximo de Kobe, em 28 de outubro de 1860, de família abastada. Em 1871, ano da proibição das armas, Kano e sua família se mudaram para Tóquio. Aos 18 anos, aluno da Universidade Imperial de Tóquio, Jigoro Kano começou a treinar o Jujutsu, atraído pela perspectiva de que um homem frágil pudesse derrubar um gigante (ele media 1,54m).  Pelo declínio da arte, foi muito difícil encontrar um Mestre de Jujutsu com conhecimentos que satisfizessem o inteligente jovem. Começou a treinar com Teinosuke Yagi, cujo estilo nos é desconhecido. Depois estudou com Hachinosuke Fukuda e Masatomo Iso, da escola Tenshin Shinyo Ryu. Aprendeu também o Kito Ryu com o Mestre Tsunetoshi Iikubo, tendo atingido os maiores segredos desses dois estilos.  Em 1882 Kano abriu seu próprio Dojô, chamado Kodokan, onde ensinava uma variação moderna do Jujutsu que ele chamava Judô. A mudança do nome se devia ao fato de que Mestre Kano não queria que sua arte tivesse a conotação negativa conferida aos praticantes de Jujutsu, pois considerava repugnante a prostituição das artes marciais através de combates remunerados e desafios. Além disso a palavra “Do”, caminho, era mais adequada aos seus objetivos: fazer do Judô um caminho, uma prática saudável para o corpo e para a mente e possível de ser praticado por homens e mulheres de qualquer idade. Em sua época era freqüente o número de acidentes sérios durante os treinos de Jujutsu. Jigoro Kano afirmou ainda que o termo escolhido, “judô”, não havia sido criado por ele, mas era muito antigo, sendo utilizado pela escola Jikishin Ryu. Para diferenciar a sua arte ele a denominava “Kodokan Judô”, nome pela qual ainda é conhecida.  Mestre Kano era um gênio das artes marciais. Seu desempenho foi tão extraordinário que Mestre Iikubo deu-lhe todos os livros e manuscritos ancestrais contendo os segredos do Kito Ryu. Embora dominasse pelo menos dois estilos, Mestre Kano nunca parou de aprender. Mantinha no conselho do Kodokan alguns dos melhores Mestres de Jujutsu de seu tempo, os quais forneciam a ele manuscritos e pergaminhos sobre suas técnicas mais ocultas. Como um inovador, Mestre Kano estava sempre procurando conhecimentos novos. Ao assistir uma demonstração de Karatê de Mestre Funakoshi, convidou-o a dar algumas aulas no Kodokan. Acabaram por se tornar grandes amigos e Kano convenceu Funakoshi a permanecer ensinando no Japão. Por causa disso o Karatê se difundiu e cresceu muito nesse país, passando daí para o resto do mundo. Ao saber da existência do Aikidô, assistiu uma aula do Mestre Ueshiba e ficou fascinado. “Esse é o Budô que eu gostaria que o Judô se tornasse”, mencionou mais tarde a um aluno. Pouco tempo depois enviou alguns de seus alunos, entre eles Kenji Tomiki, para aprender Aikidô. Este acabou por criar uma variante, chamada “Tomiki Aikidô”, que possui competições a exemplo do Judô.  As técnicas mortais do Jujutsu foram transformadas em técnicas mais leves, suaves e divertidas de aprender. A obtenção de uma boa forma física foi enfatizada e a parte esportiva foi criada. Mestre Kano também desenvolveu o primeiro sistema de faixas de graduação, chamando de Kyu aos graus dos aprendizes e de Dan aos graduados. Esse sistema não existia no Japão anteriormente ao Judô. Baseado nas roupas marciais tradicionais ele desenhou um blusão forte e resistente e calças largas, para facilitar a “pegada” e os movimentos corporais. Nascia o que hoje se conhece popularmente como “kimono”."
+            android:paddingLeft="15dp"
+            android:layout_below="@+id/imageView5"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="21dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="projetobudo.studio.com.projetobudo.TeWaza">
+
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="500dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/menu_fundo"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/logo_budo2"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"/>
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/botaoHomeId"
+        android:background="@drawable/menu_home"
+        android:layout_below="@+id/imageView"
+        android:layout_toStartOf="@+id/botaoHistoriaId"
+        android:layout_marginEnd="22dp" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/botaoHistoriaId"
+        android:background="@drawable/menu_historia"
+        android:layout_below="@+id/imageView"
+        android:layout_toStartOf="@+id/botaoDicionarioId"
+        android:layout_marginEnd="18dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/botaoDicionarioId"
+        android:background="@drawable/menu_dicionario"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/botaoExameId"
+        android:background="@drawable/menu_exame"
+        android:layout_below="@+id/imageView"
+        android:layout_toEndOf="@+id/botaoDicionarioId"
+        android:layout_marginStart="16dp" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/botaoTecnicasId"
+        android:background="@drawable/menu_tecnicas"
+        android:layout_below="@+id/imageView"
+        android:layout_toEndOf="@+id/botaoExameId"
+        android:layout_marginStart="18dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TE-WAZA"
+        android:id="@+id/button_tewaza"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/botaoTecnicasId"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:textColor="#07ad1a"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/button_tewaza"
+        android:layout_alignParentStart="true"
+        android:fillViewport="true"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SEOI-NAGE"
+                android:id="@+id/button_seoinage"
+                android:layout_marginTop="1dp"
+                android:layout_centerHorizontal="true"
+                android:background="#52a34c"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TAI-OTOSHI"
+                android:id="@+id/button_taiotoshi"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/button_seoinage"
+                android:layout_centerHorizontal="true"
+                android:background="#52a34c"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KATA-GURUMA"
+                android:id="@+id/button_kataguruma"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/button_taiotoshi"
+                android:layout_centerHorizontal="true"
+                android:background="#52a34c"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SUKUI-NAGE"
+                android:id="@+id/button_sukuinage"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/button_kataguruma"
+                android:layout_centerHorizontal="true"
+                android:background="#52a34c"
+                android:textColor="#ffffff"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UKI-OTOSHI"
+                android:id="@+id/button_ukiotoshi"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/button_sukuinage"
+                android:layout_centerHorizontal="true"
+                android:background="#52a34c"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SUMI-OTOSHI"
+                android:id="@+id/button_sumiotoshi"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/button_ukiotoshi"
+                android:layout_centerHorizontal="true"
+                android:background="#52a34c"
+                android:textColor="#ffffff"/>
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

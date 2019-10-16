@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="projetobudo.studio.com.projetobudo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".VenhaNosConhecer" />
+        <activity android:name=".ExameDeFaixa" />
+        <activity android:name=".Historia" />
+        <activity android:name=".Dicionario" />
+        <activity android:name=".Tecnicas" />
+        <activity android:name=".OsaekomiWaza" />
+        <activity android:name=".GolpesPerna.AshiWaza" />
+        <activity android:name=".AshiWaza" />
+        <activity android:name=".KoshiWaza" />
+        <activity android:name=".TeWaza" />
+        <activity android:name=".MasutemiWaza" />
+        <activity android:name=".YokoSutemiWaza" />
+        <activity android:name=".KaeshiWaza" />
+        <activity android:name=".RenrakuRenkaWaza" />
+        <activity android:name=".ShimeWaza" />
+        <activity android:name=".KansetsuWaza" />
+        <activity android:name=".ShiseiTaiSabaki" />
+        <activity android:name=".DeAshiHarai" />
+        <activity android:name=".HizaGuruma" />
+        <activity android:name=".SasaeTsurikomiAshi" />
+        <activity android:name=".OsotoGari" />
+        <activity android:name=".OuchiGari" />
+        <activity android:name=".KosotoGari" />
+        <activity android:name=".KouchiGari" />
+        <activity android:name=".OkuriAshiHarai" />
+        <activity android:name=".UchiMata" />
+        <activity android:name=".KosotoGake" />
+        <activity android:name=".AshiGuruma" />
+        <activity android:name=".HaraiTsurikomiAshi" />
+        <activity android:name=".OGuruma" />
+        <activity android:name=".OsotoGuruma"></activity>
+    </application>
+
+</manifest>
